@@ -6,11 +6,11 @@ export class User {
 
     static BIRTH_YEAR: number = 2000;
 
-    setFirstname(firstname : string){
+    setFirstname(firstname: string){
         this.firstname = firstname;
     }
 
-    setLastname(lastname : string){
+    setLastname(lastname: string){
         this.lastname = lastname;
     }
     
@@ -24,6 +24,6 @@ export class User {
     
     getFullName(){
         this.fullname = `${this.firstname} ${this.lastname}`;
-        return this.fullname;
+        return '';
     }
 }
