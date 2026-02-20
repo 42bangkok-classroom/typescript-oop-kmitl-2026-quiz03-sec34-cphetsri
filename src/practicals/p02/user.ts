@@ -23,7 +23,10 @@ export class User {
     }
     
     getFullName(){
-        this.fullname = `${this.firstname} ${this.lastname}`;
-        return '';
+        if(this.firstname === '' && this.lastname === ''){
+            return '';
+        } else {
+            return `${this.firstname} ${this.lastname}`
+        }
     }
 }
