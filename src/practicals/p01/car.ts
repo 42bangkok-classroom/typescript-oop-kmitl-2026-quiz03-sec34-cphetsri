@@ -10,7 +10,7 @@ export class Car {
         console.log(`${this.brand} ${this.model} is accelerating...`);
     }
 
-    break() {
+    brake() {
         console.log(`${this.brand} ${this.model} is breaking...`);
     }
 
